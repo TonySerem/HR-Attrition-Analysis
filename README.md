@@ -1,44 +1,75 @@
 # HR-Attrition-Analysis
-Background: The marketing team wants to improve the next marketing campaign to ensure the financial institution has greater effectiveness.
+In this project we analyse employee turnover to understand why employees leave an organization, who is leaving, and how the company can reduce unwanted turnover
 
 ## Dashboard Preview
-Description: The dashboard includes key metrics such as total number of customers, total number of customers who subscribed to a term deposit, and total number of customers who did not subscribe to a term deposit.
-Layout: The dashboard is divided into four main sections: Number of customers who subscribed to a term deposit per job, Marital status percentage of total customers who subscribed to a term deposit, Education level percentage of total customers who subscribed to a term deposit, Subscription rate to a term deposit per the number of contacts with a customer during the campaign.
+## 1. Attrion by Employee Satisfaction
+Description: The dashboard includes the key metrics such as Total number of Employees and Attrition Rate.
+Layout: The dashboard is divided into five main sections: Attrition by Employee's Working Years, Attrition by Employee Satisfaction, Attrition by Distance to Work, Attriton by Department and Attrition BY Gender.
 Key Metrics:
--	Total number of Customers: 11,162
--	Number of customers who subscribed to a term deposit: 5,289
--	Number of customers who did not subscribe to a term deposit: 5,873
-  
-## Tools Used
-- Excel
-- Pivot Tables
-- Pivot Charts
+-	Total number of Employees: 2,925
+-	Attrition Rate: 17%
 
+## 2. Attrition by Job Role, Employee Working Years and Employee Education
+Description: The dashboard includes the key metrics such as Total number of Employees and Attrition Rate.
+Layout: The dashboard is divided into three main sections: Attrition by Job Role, Attrition by Employee Working Years, Attrition by Employees Education.
+Key Metrics:
+-	Total number of Employees: 2,925
+-	Attrition Rate: 17%
+
+## 3. Age And Performance Attrition
+Description: The dashboard includes the key metrics such as Total number of Employees and Attrition Rate.
+Layout: The dashboard is divided into two main sections: Attrition by Age bracket and Gender and Attrition by Employee Performance.
+Key Metrics:
+-	Total number of Employees: 2,925
+-	Attrition Rate: 17%
+
+  ## Tools Used
+- Power Bi
+- Power Query
+- DAX
+
+## Data Preparation - Power Query
+- Removed top rows
+- Changed the first row to be headers
+- Removed columns 40-49 which had no meaningful information
+- Added a conditional column called distance status to group Employee distance to work into; Near by, Far and Very Far
+- Added a conditional column called Employee Workin Years to group Employee Working Years into; between 0-10, 11-20 and 21-30
+- Added a conditional column called Employee Satisfaction to group Employee Satisfaction into; Very Satissfied, Satissfied and Dissatisfied
+- Added a conditional column called Age Group to group Employee's Age into; 18-25, 26-35, 36-45, 46-55 and 56 plus
+
+## DAX Measures
+- Total Employees
+- Total Attrition
+- Inactive Employees
+- Low Performance Employees
+- High Performance Employees
+- Department Attrition
+  
 ## Objectives
-- Purpose: To analyze the last marketing campaign the bank performed and identify patterns that will help us find conclusions in order     to develop future strategies.
+- The primary purpose of this HR attrition analysis is to identify the factors driving employee departures, predict attrition trends, and implement evidence-based strategies that improve employee retention, reduce costs, and strengthen overall organizational performance
 
 ## Analysis
-- Key performance indicators (KPI's); Total Number of Customers, Number of Customers who Subscribed to Term deposit, and Number of Customers whin did not Subscribe to a Term deposit 
-- Number of Customers who Subscribed to Term deposit per Job
-- Marital Status Percentage of Total Customers Who Subscribed to a Term deposit
-- Education Level Percentage of Total Customers Who Subscribed to a Term deposit
-- Subscription Rate to a Term deposit per the Number of Contacts With a Customer during the Campaign
+- Key performance indicators (KPI's); Total Number of Employees and Attrition Rate
+- Attrition by Employee's Working Years
+- Attrition by Employee Satisfaction
+- Attrition by Distance to Work
+- Attriton by Department
+- Attrition BY Gender
+- Attrition by Job Role
+- Attrition by Employee Working Year
+- Attrition by Employees Education
 
 ## Filters
-- Housing; Yes/No
-- Loan; Yes/No
-- Contact; Cellular/Telephone/Unknown
+- Gender
   
 ## Key Findings and Insights
-
-- Number of customers who subscribed to a term deposit: 
-  5289 subscribed to the term deposit while 5873 did not subscribe to the term deposit, making the number of customers who subscribed to   term deposit to be less by 584 customers compared to those who did not subscribe to a term deposit.
-- Customer subscription according to Job:
-  Customers who worked in a managerial position had the highest number of subscriptions while customers who are entrepreneurs had the      lowest number of subscriptions.
-- Customer subscription according to Marital Status:
-  Married customers had the highest subscriptions at 15%, followed by single customers at 15%, then the divorced at 5%.
-- Customer subscription according to Education level:
-  Secondary level customers had the highest subscriptions at 46%, followed by tertiary level customers at 38%, then primary level at 11%.
+- Total Number of Employees - 2,925, Attrition Rate - 17%
+- Attrition by Employee's Working Years:
+  Employees with Total working years between 0-10 years have the highest attrition which is 378 while Employees with Total working years which is 31 plus years have the lowest attrition which is 11
+- Attrition by Employee Satisfaction:
+  Dissatisfied Employees had the highest Attrion of 151, followed by single Very Satissfied Employees 134, followed by Very dissatisfied with 111 then Satisfied with 96.
+- Attrition by Distance to Work:
+  Near by Employees had the highest Attrition at 60.16%, followed by Far Employees at 20.73%, then Very far at 19.11%.
 - Customer subscription according to Number of contacts with a customer during the campaign:
   Between 1 – 6 contacts with a customer during the campaign had the highest number of subscriptions.
 
