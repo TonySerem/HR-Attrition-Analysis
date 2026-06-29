@@ -2,19 +2,23 @@
 In this project we analyse employee turnover to understand why employees leave an organization, who is leaving, and how the company can reduce unwanted turnover
 
 ## Dashboard Preview
-## 1. Attrion by Employee Satisfaction
+## 1. Attrition by Employee Satisfaction, Employee Working Years and Gender
 Description: The dashboard includes the key metrics such as Total number of Employees and Attrition Rate.
 Layout: The dashboard is divided into five main sections: Attrition by Employee's Working Years, Attrition by Employee Satisfaction, Attrition by Distance to Work, Attriton by Department and Attrition BY Gender.
 Key Metrics:
 -	Total number of Employees: 2,925
 -	Attrition Rate: 17%
 
-## 2. Attrition by Job Role, Employee Working Years and Employee Education
+<img width="876" height="478" alt="Dahboard 1" src="https://github.com/user-attachments/assets/b2ddf898-0df5-4eaa-b451-931b6d89dd8f" />
+
+## 2. Attrition by Job Role and Employee Education
 Description: The dashboard includes the key metrics such as Total number of Employees and Attrition Rate.
 Layout: The dashboard is divided into three main sections: Attrition by Job Role, Attrition by Employee Working Years, Attrition by Employees Education.
 Key Metrics:
 -	Total number of Employees: 2,925
 -	Attrition Rate: 17%
+<img width="869" height="477" alt="Dashboard 2" src="https://github.com/user-attachments/assets/a5206d6c-7aa0-4d62-8f91-87efaff467c5" />
+
 
 ## 3. Age And Performance Attrition
 Description: The dashboard includes the key metrics such as Total number of Employees and Attrition Rate.
@@ -22,6 +26,7 @@ Layout: The dashboard is divided into two main sections: Attrition by Age bracke
 Key Metrics:
 -	Total number of Employees: 2,925
 -	Attrition Rate: 17%
+<img width="881" height="474" alt="Dashboard 3" src="https://github.com/user-attachments/assets/21989eb4-11db-4ebe-b7a5-f21b5e2fc73b" />
 
   ## Tools Used
 - Power Bi
@@ -33,7 +38,7 @@ Key Metrics:
 - Changed the first row to be headers
 - Removed columns 40-49 which had no meaningful information
 - Added a conditional column called distance status to group Employee distance to work into; Near by, Far and Very Far
-- Added a conditional column called Employee Workin Years to group Employee Working Years into; between 0-10, 11-20 and 21-30
+- Added a conditional column called Employee Working Years to group Employee Working Years into; between 0-10, 11-20 and 21-30
 - Added a conditional column called Employee Satisfaction to group Employee Satisfaction into; Very Satissfied, Satissfied and Dissatisfied
 - Added a conditional column called Age Group to group Employee's Age into; 18-25, 26-35, 36-45, 46-55 and 56 plus
 
