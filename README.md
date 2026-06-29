@@ -37,10 +37,10 @@ Key Metrics:
 - Removed top rows
 - Changed the first row to be headers
 - Removed columns 40-49 which had no meaningful information
-- Added a conditional column called distance status to group Employee distance to work into; Near by, Far and Very Far
-- Added a conditional column called Employee Working Years to group Employee Working Years into; between 0-10, 11-20 and 21-30
-- Added a conditional column called Employee Satisfaction to group Employee Satisfaction into; Very Satissfied, Satissfied and Dissatisfied
-- Added a conditional column called Age Group to group Employee's Age into; 18-25, 26-35, 36-45, 46-55 and 56 plus
+- Added a conditional column called distance status to group Employee distance to work into: Near by, Far and Very Far
+- Added a conditional column called Employee Working Years to group Employee Working Years into: between 0-10, 11-20 and 21-30
+- Added a conditional column called Employee Satisfaction to group Employee Satisfaction into: Very Satissfied, Satissfied and Dissatisfied
+- Added a conditional column called Age Group to group Employee's Age into: 18-25, 26-35, 36-45, 46-55 and 56 plus
 
 ## DAX Measures
 - Total Employees
@@ -61,27 +61,36 @@ Key Metrics:
 - Attriton by Department
 - Attrition BY Gender
 - Attrition by Job Role
-- Attrition by Employee Working Year
+- Attrition by Employee Working Years
 - Attrition by Employees Education
 
 ## Filters
 - Gender
   
 ## Key Findings and Insights
-- Total Number of Employees - 2,925, Attrition Rate - 17%
+- Total Number of Employees: 2,925
+- Attrition Rate: 17%
 - Attrition by Employee's Working Years:
-  Employees with Total working years between 0-10 years have the highest attrition which is 378 while Employees with Total working years which is 31 plus years have the lowest attrition which is 11
+  Employees with 0–10 years of total working experience had the highest attrition (378), while employees with 31 or more years of working experience had the lowest attrition (11).
 - Attrition by Employee Satisfaction:
-  Dissatisfied Employees had the highest Attrion of 151, followed by single Very Satissfied Employees 134, followed by Very dissatisfied with 111 then Satisfied with 96.
+  Dissatisfied employees had the highest attrition (151), followed by Very Satisfied employees (134), Very Dissatisfied employees (111), and Satisfied employees (96).
 - Attrition by Distance to Work:
-  Near by Employees had the highest Attrition at 60.16%, followed by Far Employees at 20.73%, then Very far at 19.11%.
-- Customer subscription according to Number of contacts with a customer during the campaign:
-  Between 1 – 6 contacts with a customer during the campaign had the highest number of subscriptions.
-
+  Dissatisfied employees had the highest attrition (151), followed by Very Satisfied employees (134), Very Dissatisfied employees (111), and Satisfied employees (96).
+- Attrition by Department:
+  The Research & Development (R&D) department recorded the highest attrition (282), followed by Sales (186) and Human Resources (HR) (24)
+- Attrition by Gender:
+  Male employees accounted for 63% of total attrition, while female employees accounted for 37%
+- Attrition by Job Role:
+ Among the job roles, Laboratory Technician had the highest attrition (130), while Research Director had the lowest attrition (5).
+- Attrition by Employee's Education:
+ Employees with a Bachelor's degree had the highest attrition (204), while employees with an Associate degree had the lowest attrition (93).
+- Attrition by Age Bucket:
+  Employees between the age of 26-35 years had the highest attrition (242), while Employees with the age of 36 plus years had the lowest attrition (17).
+  
 ## Conclusion
+The HR attrition analysis revealed that the organization has an overall attrition rate of 17%, with employee turnover being concentrated within specific groups rather than evenly distributed across the workforce. Employees with 0–10 years of working experience, those aged 26–35 years, and employees in the Research & Development (R&D) department experienced the highest levels of attrition. Additionally, Laboratory Technicians, employees holding a Bachelor's degree, and male employees accounted for a significant proportion of employee departures.
 
-Summary of Findings: The number of customers who subscribed to a term deposit is quite lower compared to those who did not subscribe to a term deposit across key metrics. New strategies need to be implemented by the marketing department aiming to convince more customers to subscribe to a term deposit.
+The analysis also indicates that employee satisfaction is an important factor influencing retention, with dissatisfied employees recording the highest attrition. However, the relatively high turnover among very satisfied employees suggests that factors beyond satisfaction—such as career growth opportunities, compensation, workload, or external job opportunities—may also contribute to employees leaving the organization.
 
  ## Recommendations
-- Increase marketing campaigns to groups which had a higher subscription to the term deposit, for example, according to number of subscribers per job we could increase marketing campaigns towards those who are in a managerial position since they had the highest number of subscribers.
-- Change Marketing Campaign tactics for groups with lower subscriptions to the Term deposit
+To improve retention, the organization should prioritize retention strategies for high-risk employee groups by strengthening career development programs, reviewing compensation and benefits, enhancing employee engagement, and conducting targeted stay and exit interviews. Focusing on these areas will help reduce employee turnover, retain valuable talent, lower recruitment and training costs, and improve overall organizational performance.
